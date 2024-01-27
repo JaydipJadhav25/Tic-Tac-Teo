@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #78b1b2;
+    /* background-color: #548687; */
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 70vh;
+    width: 100vw;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box{
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(75, 73, 73, 0.687) ;
+    font-size: 4rem;
+    color: rgb(223, 68, 68);
+    cursor: pointer;
+    background-color: #ffffc7;
+}
+.reset-btn {
+    margin-top: 4rem;
+    background-color: rgb(17, 15, 15);
+    /* display: inline-block; */
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+   
+}
+
+.new-btnn{
+    margin-top: 1rem;
+    background-color: rgb(17, 15, 15);
+    /* display: inline-block; */
+    color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.msg-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 125, 215);
+    gap: 2rem;
+}
+.msg{
+    color: #ffffc7;
+    font-size: 7vmin;
+}
+.hide{
+    display: none;
+}
